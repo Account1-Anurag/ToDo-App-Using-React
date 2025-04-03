@@ -1,0 +1,36 @@
+# Node modules (Prevent large unnecessary files)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build directory (Generated files, should not be committed)
+build/
+
+# Logs and dependencies
+logs
+*.log
+package-lock.json
+yarn.lock
+
+# Environment variables (if any)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Editor/IDE settings (Prevent personal settings from being uploaded)
+.vscode/
+.idea/
+.DS_Store
+
+# GitHub Pages cache (for deployments)
+gh-pages/
+
+# React cache and testing
+.cache
+coverage/
+
+# Optional: Prevent uploaded images and custom files from being tracked
+public/uploads/
